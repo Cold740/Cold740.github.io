@@ -10,6 +10,7 @@ body {
     }
 
 .box {
+  position: relative;
   width: 90vw;
   height: 90vh;
   background: rgba(0,0,0,0.5);
@@ -17,9 +18,9 @@ body {
   border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) 1;
   border-radius: 20px;
   display: flex;
-  justify-content: center;  /* horizontal center */
-  align-items: flex-start;  /* vertical top */
-  padding-top: 20px;        /* optional spacing from top */
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 20px;
   color: white;
   text-align: center;
   animation: borderShift 5s linear infinite;
