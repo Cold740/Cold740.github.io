@@ -2,47 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Welcome to Cold740.github.io</title>
+  <title>Cold740.github.io</title>
   <style>
+    /* Full-screen background */
     body {
       margin: 0;
       height: 100vh;
+      background: url("https://pomf2.lain.la/f/uyqeqvfg.jpg") no-repeat center center fixed;
+      background-size: cover;
       display: flex;
       justify-content: center;
       align-items: center;
-      background: url("https://pomf2.lain.la/f/uyqeqvfg.jpg") no-repeat center center fixed;
-      background-size: cover;
-      font-family: Arial, sans-serif;
-      color: white;
-      text-shadow: 0 0 5px black;
     }
-    .box {
-      background: rgba(0, 0, 0, 0.6);
-      padding: 2rem 3rem;
-      border-radius: 1rem;
-      text-align: center;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.75rem 1.5rem;
-      background: #ff9900;
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 0.5rem;
-      transition: 0.3s;
-    }
-    .btn:hover {
-      background: #e68a00;
+
+    /* Rainbow border effect */
+    .rainbow-border {
+      width: 90%;
+      height: 90%;
+      border: 10px solid;
+      border-image-slice: 1;
+      border-width: 10px;
+      border-image-source: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+      border-radius: 20px;
+      box-sizing: border-box;
     }
   </style>
 </head>
 <body>
-  <div class="box">
-    <h1>Welcome to My GitHub Page 🚀</h1>
-    <p>This is my first user page hosted on GitHub Pages!</p>
-    <a href="https://example.com" class="btn">Click Me</a>
-  </div>
+  <div class="rainbow-border"></div>
 </body>
 </html>
