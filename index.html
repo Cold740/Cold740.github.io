@@ -15,16 +15,19 @@
       font-family: Arial, sans-serif;
     }
 
-    .rainbow-border {
-      width: 90%;
-      height: 90%;
-      border: 10px solid;
+    .rainbow-border-wrapper {
+      padding: 10px; /* thickness of border */
       border-radius: 20px;
-      padding: 2rem;
-      background: rgba(0, 0, 0, 0.5);
-      position: relative;
-      box-sizing: border-box;
-      overflow: hidden;
+      background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+      animation: rotate 10s linear infinite;
+      display: inline-block;
+    }
+
+    .rainbow-border-inner {
+      border-radius: 15px;
+      background: rgba(0,0,0,0.5); /* transparent black inside */
+      width: 90vw;
+      height: 90vh;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -32,34 +35,23 @@
       text-align: center;
     }
 
-    .rainbow-border::before {
-      content: '';
-      position: absolute;
-      top: -50%;
-      left: -50%;
-      width: 200%;
-      height: 200%;
-      border-radius: 20px;
-      background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
-      animation: rotate 10s linear infinite;
-      z-index: 0;
-    }
-
-    .rainbow-border > * {
-      position: relative;
-      z-index: 1;
-    }
-
     @keyframes rotate {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1, p {
+      margin: 0.5rem 0;
     }
   </style>
 </head>
 <body>
-  <div class="rainbow-border">
-    <h1>Hello!</h1>
-    <p>You can add any text here and it will be visible.</p>
+  <div class="rainbow-border-wrapper">
+    <div class="rainbow-border-inner">
+      <h1>Hello!</h1>
+      <p>Text is visible here over a transparent black inside.</p>
+    </div>
   </div>
 </body>
 </html>
