@@ -15,15 +15,15 @@
       font-family: Arial, sans-serif;
     }
 
-    .rainbow-border-wrapper {
-      padding: 10px; /* thickness of border */
+    .border-container {
+      padding: 10px; /* border thickness */
       border-radius: 20px;
-      background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
-      animation: rotate 10s linear infinite;
-      display: inline-block;
+      background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet, red);
+      background-size: 300% 300%;
+      animation: rainbow 6s linear infinite;
     }
 
-    .rainbow-border-inner {
+    .inner-box {
       border-radius: 15px;
       background: rgba(0,0,0,0.5); /* transparent black inside */
       width: 90vw;
@@ -35,7 +35,7 @@
       text-align: center;
     }
 
-    @keyframes rotate {
+    @keyframes rainbow {
       0% { background-position: 0% 50%; }
       50% { background-position: 100% 50%; }
       100% { background-position: 0% 50%; }
@@ -47,10 +47,10 @@
   </style>
 </head>
 <body>
-  <div class="rainbow-border-wrapper">
-    <div class="rainbow-border-inner">
+  <div class="border-container">
+    <div class="inner-box">
       <h1>Hello!</h1>
-      <p>Text is visible here over a transparent black inside.</p>
+      <p>Text is visible over transparent black inside with animated rainbow border.</p>
     </div>
   </div>
 </body>
