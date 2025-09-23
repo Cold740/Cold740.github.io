@@ -1,0 +1,43 @@
+body {
+      margin: 0;
+      height: 100vh;
+      background: url("https://pomf2.lain.la/f/uyqeqvfg.jpg") no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+
+.box {
+  width: 90vw;
+  height: 90vh;
+  background: rgba(0,0,0,0.5);
+  border: 5px solid;
+  border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) 1;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: flex-start;  /* vertical top */
+  padding-top: 20px;        /* optional spacing from top */
+  color: white;
+  text-align: center;
+  animation: borderShift 5s linear infinite;
+}
+
+.foto1 {
+position: absolute;
+top: 100px;
+left: 80px;
+}
+
+
+    @keyframes borderShift {
+      0% { border-image-source: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red); }
+      50% { border-image-source: linear-gradient(225deg, red, orange, yellow, green, blue, indigo, violet, red); }
+      100% { border-image-source: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red); }
+    }
+
+    h1, p {
+      margin: 0.5rem 0;
+    }
