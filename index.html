@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>Cold740.github.io</title>
   <style>
-    /* Full-screen background */
     body {
       margin: 0;
       height: 100vh;
@@ -13,22 +12,54 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      font-family: Arial, sans-serif;
     }
 
-    /* Rainbow border effect */
     .rainbow-border {
       width: 90%;
       height: 90%;
       border: 10px solid;
-      border-image-slice: 1;
-      border-width: 10px;
-      border-image-source: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
       border-radius: 20px;
+      padding: 2rem;
+      background: rgba(0, 0, 0, 0.5);
       box-sizing: border-box;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .rainbow-border::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+      animation: rotate 10s linear infinite;
+      z-index: 0;
+    }
+
+    .rainbow-border > * {
+      position: relative;
+      z-index: 1;
+      color: white;
+      text-align: center;
+    }
+
+    @keyframes rotate {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    h1, p {
+      margin: 0.5rem 0;
     }
   </style>
 </head>
 <body>
-  <div class="rainbow-border"></div>
+  <div class="rainbow-border">
+    <h1>Hello!</h1>
+    <p>This is a transparent black box with animated rainbow borders.</p>
+  </div>
 </body>
 </html>
