@@ -1,4 +1,4 @@
-# BaranStare Museum
+## BaranStare Museum
 This is a museum of BaranStare
 
 ## Installation
