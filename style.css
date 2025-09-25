@@ -10,26 +10,26 @@ body {
     }
 
 .box {
-  position: relative;
-  width: 50vw;
-  height: 90vh;
-  background: rgba(0, 0, 0, 0.5);
-  border: 5px solid;
-  border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) 1;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding-top: 20px;
-  color: white;
-  text-align: center;
-  animation: borderShift 5s linear infinite;
+    position: relative;
+    width: 600px;
+    height: 760px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 5px solid;
+    border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) 1;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    animation: borderShift 5s linear infinite;
 }
 
 .foto1 {
-  position: absolute;
-  top: 100px;
-  left: 80px;
+    position: absolute;
+    padding-bottom: 500px;
+    padding-right: 480px;
 }
 
 
