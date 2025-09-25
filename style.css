@@ -96,7 +96,7 @@ body {
 .foto16:hover,
 .foto17:hover,
 .foto18:hover,
-.foto19:hover, {
+.foto19:hover {
   transform: scale(0.9);
 }
 
