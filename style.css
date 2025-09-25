@@ -49,6 +49,13 @@ body {
   padding-right: 310px;
 }
 
+.foto3 {
+  position: absolute;
+  padding-bottom: 400px;
+  padding-right: 140px;
+}
+
+
 @keyframes borderShift {
   0% {
     border-image-source: linear-gradient(
