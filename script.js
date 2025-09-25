@@ -12,11 +12,11 @@ function downloadFile(url, filename) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  document.querySelectorAll("[data-download]").forEach(link => {
+  document.querySelectorAll(".foto1 a").forEach(link => {
     link.addEventListener("click", e => {
       e.preventDefault();
       const url = link.getAttribute("href");
-      const filename = link.getAttribute("data-download") || "download.png";
+      const filename = url.split("/").pop() || "download.png";
       downloadFile(url, filename);
     });
   });
