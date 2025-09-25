@@ -78,6 +78,16 @@ body {
   margin-right: 277px;
 }
 
+.foto9 {
+  margin-bottom: 230px;
+  margin-right: 107px;
+}
+
+.foto10 {
+  margin-bottom: 230px;
+  margin-left: 63px;
+}
+
 .foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7, .foto8, .foto9, .foto10, .foto11, .foto12, .foto13, .foto14, .foto15, .foto16, .foto17, .foto18, .foto19 {
   position: absolute;
   transition: transform 0.3s ease;
