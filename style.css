@@ -67,6 +67,12 @@ body {
   padding-left: 200px;
 }
 
+.foto6 {
+  position: absolute;
+  padding-bottom: 400px;
+  padding-left: 370px;
+}
+
 @keyframes borderShift {
   0% {
     border-image-source: linear-gradient(
