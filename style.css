@@ -41,37 +41,37 @@ body {
 .foto1 {
   position: absolute;
   padding-bottom: 400px;
-  padding-right: 480px;
+  padding-right: 447px;
 }
 
 .foto2 {
   position: absolute;
   padding-bottom: 400px;
-  padding-right: 310px;
+  padding-right: 277px;
 }
 
 .foto3 {
   position: absolute;
   padding-bottom: 400px;
-  padding-right: 140px;
+  padding-right: 107px;
 }
 
 .foto4 {
   position: absolute;
   padding-bottom: 400px;
-  padding-left: 30px;
+  padding-left: 63px;
 }
 
 .foto5 {
   position: absolute;
   padding-bottom: 400px;
-  padding-left: 200px;
+  padding-left: 235px;
 }
 
 .foto6 {
   position: absolute;
   padding-bottom: 400px;
-  padding-left: 370px;
+  padding-left: 405px;
 }
 
 @keyframes borderShift {
