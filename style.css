@@ -43,6 +43,10 @@ body {
   margin-right: 447px;
 }
 
+#visitor-count {
+  position: absolute;
+}
+
 .foto2 {
   margin-bottom: 400px;
   margin-right: 277px;
