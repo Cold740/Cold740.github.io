@@ -122,15 +122,21 @@
 <div id="visitor-count">Loading visitors...</div>
     
     <script>
-  fetch("https://counterapi.dev/api/cold740")
-    .then(response => response.json())
-    .then(data => {
-      document.getElementById("visitor-count").innerText =
-        "Total visitors: " + data.count;
-    })
-    .catch(err => {
-      console.error("CounterAPI error:", err);
-    });
+  function updateCounter() {
+    fetch("https://counterapi.dev/api/cold740")
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById("visitor-count").innerText =
+          "Total visitors: " + data.count;
+      })
+      .catch(err => {
+        console.error("CounterAPI error:", err);
+      });
+  }
+
+  updateCounter();
+
+  setInterval(updateCounter, 5000);
 </script>
     
   </body>
