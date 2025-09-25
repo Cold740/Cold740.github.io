@@ -123,7 +123,7 @@
     
     <script>
   function updateCounter() {
-    fetch("https://counterapi.dev/api/cold740")
+    fetch("https://counterapi.dev/api/cold740/hit?token=ut_trg4Wv4MbWhzXzET5fvNwjdbqr85ivLYn373wixl")
       .then(response => response.json())
       .then(data => {
         document.getElementById("visitor-count").innerText =
@@ -131,11 +131,12 @@
       })
       .catch(err => {
         console.error("CounterAPI error:", err);
+        document.getElementById("visitor-count").innerText =
+          "Error loading counter ❌";
       });
   }
 
-  updateCounter();
-
+  updateCounter(); 
   setInterval(updateCounter, 5000);
 </script>
     
