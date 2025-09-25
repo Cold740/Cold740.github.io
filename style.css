@@ -12,7 +12,7 @@ body {
 .box {
     position: relative;
     width: 600px;
-    height: 760px;
+    height: 600px;
     background: rgba(0, 0, 0, 0.5);
     border: 5px solid;
     border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) 1;
@@ -28,7 +28,7 @@ body {
 
 .foto1 {
     position: absolute;
-    padding-bottom: 500px;
+    padding-bottom: 400px;
     padding-right: 480px;
 }
 
