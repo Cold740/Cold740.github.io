@@ -61,6 +61,11 @@ body {
   padding-left: 30px;
 }
 
+.foto5 {
+  position: absolute;
+  padding-bottom: 400px;
+  padding-left: 200px;
+}
 
 @keyframes borderShift {
   0% {
