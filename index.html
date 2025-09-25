@@ -123,7 +123,7 @@
     
     <script>
   function updateCounter() {
-    fetch("https://counterapi.dev/api/cold740/hit?token=ut_trg4Wv4MbWhzXzET5fvNwjdbqr85ivLYn373wixl")
+    fetch("https://counterapi.dev/api/cold740/get?token=ut_trg4Wv4MbWhzXzET5fvNwjdbqr85ivLYn373wixl")
       .then(response => response.json())
       .then(data => {
         document.getElementById("visitor-count").innerText =
