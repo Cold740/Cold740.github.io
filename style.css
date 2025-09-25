@@ -84,7 +84,7 @@ body {
 .foto4:hover,
 .foto5:hover,
 .foto6:hover,
-.foto7:hover, {
+.foto7:hover {
   transform: scale(0.9);
 }
 
