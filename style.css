@@ -40,39 +40,54 @@ body {
 
 .foto1 {
   position: absolute;
-  padding-bottom: 400px;
-  padding-right: 447px;
+  margin-bottom: 400px;
+  margin-right: 447px;
 }
 
 .foto2 {
   position: absolute;
-  padding-bottom: 400px;
-  padding-right: 277px;
+  margin-bottom: 400px;
+  margin-right: 277px;
 }
 
 .foto3 {
   position: absolute;
-  padding-bottom: 400px;
-  padding-right: 107px;
+  margin-bottom: 400px;
+  margin-right: 107px;
 }
 
 .foto4 {
   position: absolute;
-  padding-bottom: 400px;
-  padding-left: 63px;
+  margin-bottom: 400px;
+  margin-left: 63px;
 }
 
 .foto5 {
   position: absolute;
-  padding-bottom: 400px;
-  padding-left: 235px;
+  margin-bottom: 400px;
+  margin-left: 235px;
 }
 
 .foto6 {
   position: absolute;
-  padding-bottom: 400px;
-  padding-left: 405px;
+  margin-bottom: 400px;
+  margin-left: 405px;
 }
+
+.foto1, .foto2, .foto3, .foto4, .foto5, .foto6 {
+  position: absolute;
+  transition: transform 0.3s ease;
+}
+
+.foto1:hover,
+.foto2:hover,
+.foto3:hover,
+.foto4:hover,
+.foto5:hover,
+.foto6:hover {
+  transform: scale(0.9);
+}
+
 
 @keyframes borderShift {
   0% {
