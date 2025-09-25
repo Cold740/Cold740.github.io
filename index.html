@@ -120,14 +120,14 @@
     </div>
     
 <div id="visitor-count">Loading visitors...</div>
-    
-    <script>
+
+<script>
   function updateCounter() {
-    fetch("https://counterapi.dev/api/cold740/get?token=ut_trg4Wv4MbWhzXzET5fvNwjdbqr85ivLYn373wixl")
+    fetch("https://api.counterapi.dev/cold740/get?token=ut_trg4Wv4MbWhzXzET5fvNwjdbqr85ivLYn373wixl")
       .then(response => response.json())
       .then(data => {
         document.getElementById("visitor-count").innerText =
-          "Total visitors: " + data.count;
+          "Total visitors: " + data.value;
       })
       .catch(err => {
         console.error("CounterAPI error:", err);
@@ -136,7 +136,7 @@
       });
   }
 
-  updateCounter(); 
+  updateCounter();
   setInterval(updateCounter, 5000);
 </script>
     
