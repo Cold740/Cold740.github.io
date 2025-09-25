@@ -35,6 +35,7 @@ body {
   color: white;
   text-align: center;
   animation: borderShift 5s linear infinite;
+  font-size: 14px;
 }
 
 .foto1 {
