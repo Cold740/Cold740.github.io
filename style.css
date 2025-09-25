@@ -98,6 +98,36 @@ body {
   margin-left: 405px;
 }
 
+.foto13 {
+  margin-bottom: 400px;
+  margin-right: 447px;
+}
+
+.foto14 {
+  margin-bottom: 400px;
+  margin-right: 277px;
+}
+
+.foto15 {
+  margin-bottom: 400px;
+  margin-right: 107px;
+}
+
+.foto16 {
+  margin-bottom: 400px;
+  margin-left: 63px;
+}
+
+.foto17 {
+  margin-bottom: 400px;
+  margin-left: 235px;
+}
+
+.foto18 {
+  margin-bottom: 400px;
+  margin-left: 405px;
+}
+
 .foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7, .foto8, .foto9, .foto10, .foto11, .foto12, .foto13, .foto14, .foto15, .foto16, .foto17, .foto18, .foto19 {
   position: absolute;
   transition: transform 0.3s ease;
