@@ -55,6 +55,12 @@ body {
   padding-right: 140px;
 }
 
+.foto4 {
+  position: absolute;
+  padding-bottom: 400px;
+  padding-left: 30px;
+}
+
 
 @keyframes borderShift {
   0% {
