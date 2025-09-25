@@ -118,7 +118,20 @@
         <img src="stares/brownibaran.png" alt="Browni_Baran" height="60" />
       </a>
     </div>
-
-
+    
+<div id="visitor-count">Loading visitors...</div>
+    
+    <script>
+  fetch("https://counterapi.dev/api/cold740")
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById("visitor-count").innerText =
+        "Total visitors: " + data.count;
+    })
+    .catch(err => {
+      console.error("CounterAPI error:", err);
+    });
+</script>
+    
   </body>
 </html>
