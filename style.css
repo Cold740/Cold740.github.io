@@ -73,7 +73,7 @@ body {
   margin-right: 447px;
 }
 
-.foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7 {
+.foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7, .foto8, .foto9, .foto10, .foto11, .foto12, .foto13, .foto14, .foto15, .foto16, .foto17, .foto18, .foto19 {
   position: absolute;
   transition: transform 0.3s ease;
 }
@@ -84,7 +84,19 @@ body {
 .foto4:hover,
 .foto5:hover,
 .foto6:hover,
-.foto7:hover {
+.foto7:hover,
+.foto8:hover,
+.foto9:hover,
+.foto10:hover, 
+.foto11:hover,
+.foto12:hover,
+.foto13:hover,
+.foto14:hover,
+.foto15:hover,
+.foto16:hover,
+.foto17:hover,
+.foto18:hover,
+.foto19:hover, {
   transform: scale(0.9);
 }
 
