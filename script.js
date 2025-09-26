@@ -1,8 +1,13 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const audio = document.getElementById("mySong");
+const button = document.getElementById("playAnthem");
+const audio = document.getElementById("mySong");
 
-  document.addEventListener("click", () => {
-    audio.muted = false;
-    audio.volume = 1.0;
-  }, { once: true });
+button.addEventListener("click", () => {
+  audio.muted = false; 
+  audio.volume = 1.0; 
+
+  if (audio.paused) {
+    audio.play().catch(err => console.error("Play error:", err));
+  } else {
+    audio.pause();
+  }
 });
