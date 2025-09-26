@@ -1,13 +1,20 @@
-const button = document.getElementById("playAnthem");
-const audio = document.getElementById("mySong");
+document.addEventListener("DOMContentLoaded", () => {
+  const audio = document.getElementById("mySong");
+  const anthemButton = document.getElementById("playAnthem");
 
-button.addEventListener("click", () => {
-  audio.muted = false; 
-  audio.volume = 1.0; 
+  let isPlaying = false;
 
-  if (audio.paused) {
-    audio.play().catch(err => console.error("Play error:", err));
-  } else {
-    audio.pause();
-  }
+  anthemButton.addEventListener("click", () => {
+    if (isPlaying) {
+      audio.pause();
+      isPlaying = false;
+      anthemButton.textContent = "Play Anthem";
+    } else {
+      audio.muted = false;
+      audio.volume = 1.0;
+      audio.play().catch(err => console.error(err));
+      isPlaying = true;
+      anthemButton.textContent = "Pause Anthem";
+    }
+  });
 });
