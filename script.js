@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const anthemButton = document.getElementById("playAnthem");
-  if (anthemButton) {
-    anthemButton.addEventListener("click", () => {
-      alert("Anthem clicked!");
-    });
-  }
+  const audio = document.getElementById("mySong");
+
+  document.addEventListener("click", () => {
+    audio.muted = false;
+    audio.volume = 1.0;
+  }, { once: true });
 });
