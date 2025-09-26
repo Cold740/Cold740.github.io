@@ -1,13 +1,8 @@
-const button = document.getElementById("playAnthem");
-const audio = document.getElementById("mySong");
-
-button.addEventListener("click", () => {
-  audio.muted = false;
-  audio.volume = 1.0;
-
-  if (audio.paused) {
-    audio.play().catch(err => console.error("Play error:", err));
-  } else {
-    audio.pause();
+document.addEventListener("DOMContentLoaded", () => {
+  const anthemButton = document.getElementById("playAnthem");
+  if (anthemButton) {
+    anthemButton.addEventListener("click", () => {
+      alert("Anthem clicked!");
+    });
   }
 });
