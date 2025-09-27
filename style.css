@@ -220,6 +220,13 @@ p {
   color: darkblue;
 }
 
+.tiktok {
+  position: absolute;
+  scale: 0.2;
+  margin-bottom: 860px;
+  margin-left: 270px
+}
+
 @media only screen and (max-width: 1000px) {
   body {
   margin: 0;
@@ -269,7 +276,14 @@ p {
   text-decoration: underline;
   margin-bottom: 880px;
   margin-right: 680px;
-}
+  }
+
+  .tiktok {
+  position: absolute;
+  scale: 0.28;
+  margin-bottom: 1190px;
+  margin-left: 365px
+  }
 
   .foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7, .foto8, .foto9, .foto10, .foto11, .foto12, .foto13, .foto14, .foto15, .foto16, .foto17, .foto18, .foto19 {
   scale: 2
