@@ -500,5 +500,10 @@ p {
   margin-bottom: -400px;
   margin-right: 127px;
   }
-}
 
+  #faq-button {
+    margin-bottom: -865px;
+    margin-right: 845px;
+    font-size: 34px;
+  }
+}
