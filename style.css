@@ -311,115 +311,143 @@ p {
   margin-left: 365px
   }
 
-  .foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7, .foto8, .foto9, .foto10, .foto11, .foto12, .foto13, .foto14, .foto15, .foto16, .foto17, .foto18, .foto19 {
-  scale: 2
+  [class^="foto"] {
+  position: absolute;
+  transform: scale(2);
   }
   
   .foto1 {
   margin-bottom: 500px;
   margin-right: 687px;
-  z-index: 10;
   }
 
-  .foto2 {
+.foto2 {
   margin-bottom: 500px;
   margin-right: 407px;
-  z-index: 11;
   }
 
 .foto3 {
   margin-bottom: 500px;
   margin-right: 127px;
-  z-index: 12;
   }
 
 .foto4 {
   margin-bottom: 500px;
   margin-left: 153px;
-  z-index: 13;
   }
 
 .foto5 {
   margin-bottom: 500px;
   margin-left: 435px;
-  z-index: 14;
   }
 
 .foto6 {
   margin-bottom: 500px;
   margin-left: 710px;
-  z-index: 15;
   }
 
 .foto7 {
   margin-bottom: 200px;
   margin-right: 687px;
-  z-index: 10;
   }
 
 .foto8 {
   margin-bottom: 200px;
   margin-right: 407px;
-  z-index: 11;
   }
 
 .foto9 {
   margin-bottom: 200px;
   margin-right: 127px;
-  z-index: 12;
   }
 
 .foto10 {
   margin-bottom: 200px;
   margin-left: 153px;
-  z-index: 13;
   }
 
 .foto11 {
   margin-bottom: 200px;
   margin-left: 435px;
-  z-index: 14;
   }
 
 .foto12 {
   margin-bottom: 200px;
   margin-left: 710px;
-  z-index: 15;
   }
 
 .foto13 {
   margin-bottom: -100px;
   margin-right: 687px;
-  z-index: 10;
   }
 
 .foto14 {
   margin-bottom: -100px;
   margin-right: 407px;
-  z-index: 11;
   }
 
 .foto15 {
   margin-bottom: -100px;
   margin-right: 127px;
-  z-index: 12;
   }
 
 .foto16 {
   margin-bottom: -100px;
   margin-left: 153px;
-  z-index: 13;
   }
 
 .foto17 {
   margin-bottom: -100px;
   margin-left: 435px;
-  z-index: 14;
   }
 
 .foto18 {
   margin-bottom: -100px;
   margin-left: 710px;
-  z-index: 15;
+  }
+
+.foto19 {
+  margin-bottom: -300px;
+  margin-right: 687px;
+}
+
+.foto20 {
+  margin-bottom: -300px;
+  margin-right: 407px;
+}
+
+.foto21 {
+  margin-bottom: -300px;
+  margin-right: 127px;
+}
+
+.foto27 {
+  margin-bottom: -300px;
+  margin-left: 153px;
+}
+
+.foto23 {
+  margin-bottom: -300px;
+  margin-left: 435px;
+}
+
+.foto24 {
+  margin-bottom: -300px;
+  margin-left: 710px;
+}
+
+.foto25 {
+  margin-bottom: -400px;
+  margin-right: 687px;
+}
+
+.foto26 {
+  margin-bottom: -400px;
+  margin-right: 407px;
+}
+
+.foto22 {
+  margin-bottom: -400px;
+  margin-right: 127px;
   }
 }
