@@ -228,6 +228,11 @@ body {
   margin-right: 107px;
 }
 
+.foto28 {
+  margin-top: 280px;
+  margin-left: 63px;
+}
+
 [class^="foto"] {
   position: absolute;
   transition: transform 0.3s ease;
@@ -500,6 +505,11 @@ p {
 .foto22 {
   margin-bottom: -400px;
   margin-right: 127px;
+  }
+
+  .foto28 {
+  margin-bottom: -400px;
+  margin-left: 153px;
   }
 
   #faq-button {
