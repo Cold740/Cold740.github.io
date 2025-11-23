@@ -39,6 +39,12 @@ body {
   font-size: 14px;
 }
 
+#view-counter {
+    position: absolute;
+    margin-bottom: 650px;
+    margin-right: 200px;
+}
+
 #faq-button { 
   cursor: pointer;
   color: blue;
@@ -350,6 +356,12 @@ p {
   font-size: 25px;
   }
 
+  #view-counter{
+    margin-bottom: 860px;
+    margin-right: 270px;
+    height: 29px;
+  }
+  
   #playAnthem {
   position: absolute;
   cursor: pointer;
