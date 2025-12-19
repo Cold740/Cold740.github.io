@@ -239,6 +239,21 @@ body {
   margin-left: 63px;
 }
 
+.foto29 {
+  margin-top: 280px;
+  margin-left: 235px;
+}
+
+.foto30 {
+  margin-top: 280px;
+  margin-left: 405px;
+}
+
+.foto31 {
+  margin-top: 450px;
+  margin-right: 447px;
+}
+
 [class^="foto"] {
   position: absolute;
   transition: transform 0.3s ease;
@@ -331,7 +346,7 @@ p {
   .box {
   position: relative;
   width: 900px;
-  height: 800px;
+  height: 950px;
   background: rgba(0, 0, 0, 0.5);
   border: 5px solid;
   border-image: linear-gradient(
@@ -357,7 +372,7 @@ p {
   }
 
   #view-counter{
-    margin-bottom: 860px;
+    margin-bottom: 1010px;
     margin-right: 270px;
     height: 29px;
   }
@@ -368,7 +383,7 @@ p {
   color: blue;
   font-size: 34px;
   text-decoration: underline;
-  margin-bottom: 880px;
+  margin-bottom: 1030px;
   margin-right: 680px;
   }
 
@@ -428,7 +443,7 @@ p {
   .tiktok {
   position: absolute;
   scale: 0.28;
-  margin-bottom: 1190px;
+  margin-bottom: 1320px;
   margin-left: 365px
   }
 
@@ -438,147 +453,156 @@ p {
   }
   
   .foto1 {
-  margin-bottom: 500px;
+  margin-bottom: 650px;
   margin-right: 687px;
   }
 
 .foto2 {
-  margin-bottom: 500px;
+  margin-bottom: 650px;
   margin-right: 407px;
   }
 
 .foto3 {
-  margin-bottom: 500px;
+  margin-bottom: 650px;
   margin-right: 127px;
   }
 
 .foto4 {
-  margin-bottom: 500px;
+  margin-bottom: 650px;
   margin-left: 153px;
   }
 
 .foto5 {
-  margin-bottom: 500px;
+  margin-bottom: 650px;
   margin-left: 435px;
   }
 
 .foto6 {
-  margin-bottom: 500px;
+  margin-bottom: 650px;
   margin-left: 710px;
   }
 
 .foto7 {
-  margin-bottom: 200px;
+  margin-bottom: 350px;
   margin-right: 687px;
   }
 
 .foto8 {
-  margin-bottom: 200px;
+  margin-bottom: 350px;
   margin-right: 407px;
   }
 
 .foto9 {
-  margin-bottom: 200px;
+  margin-bottom: 350px;
   margin-right: 127px;
   }
 
 .foto10 {
-  margin-bottom: 200px;
+  margin-bottom: 350px;
   margin-left: 153px;
   }
 
 .foto11 {
-  margin-bottom: 200px;
+  margin-bottom: 350px;
   margin-left: 435px;
   }
 
 .foto12 {
-  margin-bottom: 200px;
+  margin-bottom: 350px;
   margin-left: 710px;
   }
 
 .foto13 {
-  margin-bottom: -100px;
   margin-right: 687px;
   }
 
 .foto14 {
-  margin-bottom: -100px;
   margin-right: 407px;
   }
 
 .foto15 {
-  margin-bottom: -100px;
   margin-right: 127px;
   }
 
 .foto16 {
-  margin-bottom: -100px;
   margin-left: 153px;
   }
 
 .foto17 {
-  margin-bottom: -100px;
   margin-left: 435px;
   }
 
 .foto18 {
-  margin-bottom: -100px;
   margin-left: 710px;
   }
 
 .foto19 {
-  margin-bottom: -300px;
+  margin-bottom: -150px;
   margin-right: 687px;
 }
 
 .foto20 {
-  margin-bottom: -300px;
+  margin-bottom: -150px;
   margin-right: 407px;
 }
 
 .foto21 {
-  margin-bottom: -300px;
+  margin-bottom: -150px;
   margin-right: 127px;
 }
 
 .foto27 {
-  margin-bottom: -300px;
+  margin-bottom: -150px;
   margin-left: 153px;
 }
 
 .foto23 {
-  margin-bottom: -300px;
+  margin-bottom: -150px;
   margin-left: 435px;
 }
 
 .foto24 {
-  margin-bottom: -300px;
+  margin-bottom: -150px;
   margin-left: 710px;
 }
 
 .foto25 {
-  margin-bottom: -400px;
+  margin-bottom: -250px;
   margin-right: 687px;
 }
 
 .foto26 {
-  margin-bottom: -400px;
+  margin-bottom: -250px;
   margin-right: 407px;
 }
 
 .foto22 {
-  margin-bottom: -400px;
+  margin-bottom: -250px;
   margin-right: 127px;
   }
 
   .foto28 {
-  margin-bottom: -400px;
+  margin-bottom: -250px;
   margin-left: 153px;
   }
 
+  .foto29 {
+  margin-bottom: -250px;
+  margin-left: 435px;
+  }
+
+  .foto30 {
+  margin-bottom: -250px;
+  margin-left: 710px;
+  }
+
+  .foto31 {
+  margin-bottom: -360px;
+  margin-right: 687px;
+  }
+
   #faq-button {
-    margin-bottom: -865px;
+    margin-bottom: -1015px;
     margin-right: 845px;
     font-size: 34px;
   }
