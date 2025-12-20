@@ -13,7 +13,7 @@ body {
 
 .box {
   position: relative;
-  width: 600px;
+  width: 800px;
   height: 600px;
   background: rgba(0, 0, 0, 0.5);
   border: 5px solid;
@@ -42,7 +42,7 @@ body {
 #view-counter {
     position: absolute;
     margin-bottom: 650px;
-    margin-right: 185px;
+    margin-right: 385px;
 }
 
 #faq-button { 
@@ -53,7 +53,7 @@ body {
   font-size: 24px;
   position: absolute;
   margin-bottom: -655px;
-  margin-right: 560px
+  margin-right: 760px
 }
 
 #faq-box {
@@ -148,7 +148,7 @@ p {
   font-size: 24px;
   text-decoration: underline;
   margin-bottom: 670px;
-  margin-right: 450px;
+  margin-right: 650px;
 }
 #playAnthem:hover {
   color: darkblue;
@@ -158,7 +158,7 @@ p {
   position: absolute;
   scale: 0.2;
   margin-bottom: 860px;
-  margin-left: 270px
+  margin-left: 420px
 }
 
 @media only screen and (max-width: 1000px) {
