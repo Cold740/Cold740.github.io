@@ -181,6 +181,28 @@ p {
   position:absolute;
 }
 
+#Next { 
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+  margin-bottom: -655px;
+  margin-left: 860px
+}
+
+#Back {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+  margin-bottom: -655px;
+  margin-left: 740px
+}
+
 @media only screen and (max-width: 1000px) {
   body {
   margin: 0;
@@ -320,5 +342,17 @@ p {
   }
 .video-player{
   width: 730px;
-}
+  }
+  
+  #Next {
+    margin-bottom: -1015px;
+    margin-left: 845px;
+    font-size: 34px;
+  }
+
+  #Back {
+    margin-bottom: -1015px;
+    margin-left: 665px;
+    font-size: 34px;
+  }
 }
