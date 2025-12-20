@@ -1,0 +1,321 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: url("https://pomf2.lain.la/f/svqtebtl.png") no-repeat center
+    center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  cursor: url("https://pomf2.lain.la/f/y1ka4d1m.png") 0 0, auto;
+}
+
+.box {
+  position: relative;
+  width: 900px;
+  height: 600px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 5px solid;
+  border-image: linear-gradient(
+      45deg,
+      red,
+      orange,
+      yellow,
+      green,
+      blue,
+      indigo,
+      violet
+    )
+    1;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+  animation: borderShift 5s linear infinite;
+  font-size: 14px;
+}
+
+#view-counter {
+    position: absolute;
+    margin-bottom: 650px;
+    margin-right: 485px;
+}
+
+#faq-button { 
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+  margin-bottom: -655px;
+  margin-right: 860px
+}
+
+#faq-box {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  max-width: 90%;
+  padding: 20px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  z-index: 1000;
+}
+
+#faq-box h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.faq-answer {
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.faq-answer:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+#close-faq {
+  margin-top: 15px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#home img {
+  width: 80px;
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+#video img {
+  width: 80px;
+  cursor: pointer;
+  position: absolute;
+  top: 120px;
+  left: 30px;
+}
+
+@keyframes borderShift {
+  0% {
+    border-image-source: linear-gradient(
+      45deg,
+      red,
+      orange,
+      yellow,
+      green,
+      blue,
+      indigo,
+      violet,
+      red
+    );
+  }
+  50% {
+    border-image-source: linear-gradient(
+      225deg,
+      red,
+      orange,
+      yellow,
+      green,
+      blue,
+      indigo,
+      violet,
+      red
+    );
+  }
+  100% {
+    border-image-source: linear-gradient(
+      45deg,
+      red,
+      orange,
+      yellow,
+      green,
+      blue,
+      indigo,
+      violet,
+      red
+    );
+  }
+}
+
+h1,
+p {
+  margin: 0.5rem 0;
+}
+
+#playAnthem {
+  position: absolute;
+  cursor: pointer;
+  color: blue;
+  font-size: 24px;
+  text-decoration: underline;
+  margin-bottom: 670px;
+  margin-right: 750px;
+}
+#playAnthem:hover {
+  color: darkblue;
+}
+
+.tiktok {
+  position: absolute;
+  scale: 0.2;
+  margin-bottom: 860px;
+  margin-left: 490px
+}
+
+.video-player{
+  position:absolute;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+  margin: 0;
+  height: 100vh;
+  background: url("https://pomf2.lain.la/f/mvybem3h.jpg") no-repeat center
+    center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  }
+
+  .box {
+  position: relative;
+  width: 900px;
+  height: 950px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 5px solid;
+  border-image: linear-gradient(
+      45deg,
+      red,
+      orange,
+      yellow,
+      green,
+      blue,
+      indigo,
+      violet
+    )
+    1;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+  animation: borderShift 5s linear infinite;
+  font-size: 25px;
+  }
+
+  #view-counter{
+    margin-bottom: 1010px;
+    margin-right: 270px;
+    height: 29px;
+  }
+  
+  #playAnthem {
+  position: absolute;
+  cursor: pointer;
+  color: blue;
+  font-size: 34px;
+  text-decoration: underline;
+  margin-bottom: 1030px;
+  margin-right: 680px;
+  }
+
+  #faq-button { 
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+  margin-bottom: -655px;
+  margin-right: 560px
+}
+
+#faq-box {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 400px;
+  max-width: 90%;
+  padding: 20px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  z-index: 1000;
+  font-size: 34px;
+}
+
+#faq-box h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.faq-answer {
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 34px;
+}
+
+.faq-answer:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+#close-faq {
+  margin-top: 15px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 24px
+}
+
+  .tiktok {
+  position: absolute;
+  scale: 0.28;
+  margin-bottom: 1320px;
+  margin-left: 365px
+  }
+
+  [class^="foto"] {
+  position: absolute;
+  transform: scale(2);
+  }
+
+  #faq-button {
+    margin-bottom: -1015px;
+    margin-right: 845px;
+    font-size: 34px;
+  }
+  
+    #home img{
+    width: 140px;
+  }
+
+  #video img{
+    width: 130px;
+    top: 35px;
+    left: 180px
+  }
+}
