@@ -613,4 +613,8 @@ p {
     margin-right: 845px;
     font-size: 34px;
   }
+
+  #home img{
+    width: 140px;
+  }
 }
