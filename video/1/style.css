@@ -94,6 +94,14 @@ body {
   cursor: pointer;
 }
 
+#home img {
+  width: 80px;
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
 @keyframes borderShift {
   0% {
     border-image-source: linear-gradient(
