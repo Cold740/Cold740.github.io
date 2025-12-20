@@ -625,4 +625,10 @@ p {
   #home img{
     width: 140px;
   }
+  
+  #video img{
+    width: 130px;
+    top: 35px;
+    left: 180px
+  }
 }
