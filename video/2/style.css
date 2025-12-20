@@ -318,4 +318,7 @@ p {
     top: 35px;
     left: 180px
   }
+.video-player{
+  width: 730px;
+}
 }
