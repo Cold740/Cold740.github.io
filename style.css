@@ -72,6 +72,13 @@ body {
   z-index: 1000;
 }
 
+.discord{
+  position: absolute;
+  width: 94px;
+  margin-left: 140px;
+  margin-bottom: 695px;
+}
+
 #faq-box h2 {
   margin-top: 0;
   margin-bottom: 15px;
@@ -681,4 +688,12 @@ p {
     top: 35px;
     left: 180px
   }
+  
+  .discord{
+  position: absolute;
+  width: 154px;
+  margin-left: 198px;
+  margin-bottom: 1085px;
+  }
+  
 }
