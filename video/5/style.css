@@ -28,6 +28,13 @@ body {
     font-size: 14px;
 }
 
+.discord{
+  position: absolute;
+  width: 94px;
+  margin-left: 140px;
+  margin-bottom: 695px;
+}
+
 #view-counter {
     position: absolute;
     margin-bottom: 650px;
@@ -293,4 +300,11 @@ p {
         margin-left: 665px;
         font-size: 34px;
     }
+
+    .discord{
+  position: absolute;
+  width: 154px;
+  margin-left: 198px;
+  margin-bottom: 1085px;
+  }
 }
