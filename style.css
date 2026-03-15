@@ -78,6 +78,14 @@ body {
   margin-bottom: 695px;
 }
 
+#dvd img{
+  width: 80px;
+  cursor: pointer;
+  position: absolute;
+  top: 210px;
+  left: 30px;
+}
+
 #faq-box h2 {
   margin-top: 0;
   margin-bottom: 15px;
@@ -686,6 +694,12 @@ p {
     width: 130px;
     top: 35px;
     left: 180px
+  }
+
+  #dvd img{
+    width: 130px;
+    top: 35px;
+    left: 320px
   }
   
   .discord{
