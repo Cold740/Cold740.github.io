@@ -42,7 +42,7 @@ body {
 .discord{
   position: absolute;
   width: 94px;
-  margin-left: 140px;
+  margin-left: 240px;
   margin-bottom: 695px;
 }
 
@@ -179,9 +179,9 @@ p {
 
 .tiktok {
   position: absolute;
-  scale: 0.2;
-  margin-bottom: 860px;
-  margin-left: 490px
+  scale: 0.33;
+  margin-bottom: 785px;
+  margin-left: 455px
 }
 
 .video-player{
@@ -323,8 +323,8 @@ p {
 
   .tiktok {
   position: absolute;
-  scale: 0.28;
-  margin-bottom: 1320px;
+  scale: 0.44;
+  margin-bottom: 1195px;
   margin-left: 365px
   }
 
