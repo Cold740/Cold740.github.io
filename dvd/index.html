@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DVD Bounce Click Add</title>
+<style>
+  body {
+    margin: 0;
+    overflow: hidden;
+    background: url("https://cdn.discordapp.com/attachments/1482776610150158437/1482825839962886144/1920-1080Baran.png?ex=69b85cad&is=69b70b2d&hm=b01eb1ff02b89d47b6fa5fdaaf53ac23b7f91bf05aa623d0e7be04d295879571&") no-repeat center center fixed;
+  }
+
+  .logo {
+    position: absolute;
+    width: 120px;
+    pointer-events: none; /* so clicks go through logos */
+  }
+
+  #clickMessage {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bold;
+    pointer-events: none;
+    animation: rainbow 3s linear infinite;
+  }
+
+  @keyframes rainbow {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: green; }
+    57% { color: blue; }
+    71% { color: indigo; }
+    85% { color: violet; }
+    100% { color: red; }
+  }
+</style>
+</head>
+<body>
+
+<div id="clickMessage">Click Anywhere!</div>
+
+<script>
+const logos = [];
+
+// Function to add a new logo
+function addLogo() {
+  const img = document.createElement("img");
+  img.src = "https://cdn.discordapp.com/attachments/1482776610150158437/1482825839962886144/1920-1080Baran.png?ex=69b85cad&is=69b70b2d&hm=b01eb1ff02b89d47b6fa5fdaaf53ac23b7f91bf05aa623d0e7be04d295879571&";
+  img.classList.add("logo");
+  document.body.appendChild(img);
+
+  logos.push({
+    el: img,
+    x: Math.random() * window.innerWidth,
+    y: Math.random() * window.innerHeight,
+    dx: (Math.random() * 4 + 1) * (Math.random() < 0.5 ? 1 : -1),
+    dy: (Math.random() * 4 + 1) * (Math.random() < 0.5 ? 1 : -1),
+  });
+}
+
+// Start with 1 logo
+addLogo();
+
+// Move function
+function move() {
+  const w = window.innerWidth;
+  const h = window.innerHeight;
+
+  logos.forEach(logo => {
+    const lw = logo.el.offsetWidth;
+    const lh = logo.el.offsetHeight;
+
+    logo.x += logo.dx;
+    logo.y += logo.dy;
+
+    if (logo.x + lw >= w || logo.x <= 0) logo.dx = -logo.dx;
+    if (logo.y + lh >= h || logo.y <= 0) logo.dy = -logo.dy;
+
+    logo.el.style.left = logo.x + "px";
+    logo.el.style.top = logo.y + "px";
+  });
+
+  requestAnimationFrame(move);
+}
+
+move();
+
+// Add new logo on any click or keypress
+document.addEventListener("click", addLogo);
+document.addEventListener("keydown", addLogo);
+</script>
+
+</body>
+</html>
