@@ -42,7 +42,7 @@ body {
 .discord{
   position: absolute;
   width: 94px;
-  margin-left: 140px;
+  margin-left: 240px;
   margin-bottom: 695px;
 }
 
@@ -179,13 +179,14 @@ p {
 
 .tiktok {
   position: absolute;
-  scale: 0.2;
-  margin-bottom: 860px;
-  margin-left: 490px
+  scale: 0.33;
+  margin-bottom: 785px;
+  margin-left: 455px
 }
 
 .video-player{
   position:absolute;
+  width: 530px;
 }
 
 #Next { 
@@ -196,7 +197,7 @@ p {
   font-size: 24px;
   position: absolute;
   margin-bottom: -655px;
-  margin-left: 860px
+  margin-left: 860px;
 }
 
 #Back {
@@ -322,8 +323,8 @@ p {
 
   .tiktok {
   position: absolute;
-  scale: 0.28;
-  margin-bottom: 1320px;
+  scale: 0.44;
+  margin-bottom: 1195px;
   margin-left: 365px
   }
 
@@ -347,8 +348,10 @@ p {
     top: 35px;
     left: 180px
   }
-.video-player{
-  width: 730px;
+
+  .video-player{
+    width: 820px;
+    margin-bottom: -100px
   }
   
   #Next {
@@ -362,7 +365,7 @@ p {
     margin-left: 665px;
     font-size: 34px;
   }
-  
+
   .discord{
   position: absolute;
   width: 154px;
