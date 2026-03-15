@@ -1,14 +1,14 @@
 body {
   margin: 0;
   height: 100vh;
-  background: url("../../stares/1920-1080Baran.png") no-repeat center
+  background: url("stares/1920-1080Baran.png") no-repeat center
     center fixed;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: Arial, sans-serif;
-  cursor: url("../../stares/corsourbaran32.png") 0 0, auto;
+  cursor: url("stares/corsourbaran32.png") 0 0, auto;
 }
 
 .box {
@@ -42,7 +42,7 @@ body {
 .discord{
   position: absolute;
   width: 94px;
-  margin-left: 140px;
+  margin-left: 240px;
   margin-bottom: 695px;
 }
 
@@ -179,9 +179,9 @@ p {
 
 .tiktok {
   position: absolute;
-  scale: 0.2;
-  margin-bottom: 860px;
-  margin-left: 490px
+  scale: 0.33;
+  margin-bottom: 785px;
+  margin-left: 450px
 }
 
 .video-player{
@@ -203,7 +203,7 @@ p {
   body {
   margin: 0;
   height: 100vh;
-  background: url("../../stares/Baran_20260315181028.png") no-repeat center
+  background: url("stares/Baran_20260315181028.png") no-repeat center
     center fixed;
   background-size: cover;
   display: flex;
@@ -311,8 +311,8 @@ p {
 
   .tiktok {
   position: absolute;
-  scale: 0.28;
-  margin-bottom: 1320px;
+  scale: 0.44;
+  margin-bottom: 1195px;
   margin-left: 365px
   }
 
