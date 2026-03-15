@@ -168,7 +168,7 @@ p {
   body {
   margin: 0;
   height: 100vh;
-  background: url("stares/Baran_20260315181028.png") no-repeat center
+  background: url("../../stares/Baran_20260315181028.png") no-repeat center
     center fixed;
   background-size: cover;
   display: flex;
