@@ -697,9 +697,7 @@ p {
   }
 
   #dvd img{
-    width: 130px;
-    top: 35px;
-    left: 320px
+    display: none;
   }
   
   .discord{
