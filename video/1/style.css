@@ -344,6 +344,10 @@ p {
     top: 35px;
     left: 180px
   }
+
+  #dvd img{
+    display: none;
+  }
   
   #Next {
     margin-bottom: -1015px;
