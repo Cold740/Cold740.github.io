@@ -1,14 +1,14 @@
 body {
   margin: 0;
   height: 100vh;
-  background: url("stares/1920-1080Baran.png") no-repeat center
+  background: url("../../stares/1920-1080Baran.png") no-repeat center
     center fixed;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: Arial, sans-serif;
-  cursor: url("stares/corsourbaran32.png") 0 0, auto;
+  cursor: url("../../stares/corsourbaran32.png") 0 0, auto;
 }
 
 .box {
