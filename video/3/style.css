@@ -187,6 +187,7 @@ p {
 .video-player{
   position:absolute;
   width: 530px;
+  margin-top: 40px;
 }
 
 #Next { 
