@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>DVD Bounce Click Add</title>
+<title>DVD BaranStare</title>
 <style>
   body {
     margin: 0;
@@ -12,7 +12,7 @@
   .logo {
     position: absolute;
     width: 120px;
-    pointer-events: none; /* so clicks go through logos */
+    pointer-events: none;
   }
 
   #clickMessage {
@@ -45,7 +45,6 @@
 <script>
 const logos = [];
 
-// Function to add a new logo
 function addLogo() {
   const img = document.createElement("img");
   img.src = "https://cdn.discordapp.com/attachments/1482776610150158437/1482825839962886144/1920-1080Baran.png?ex=69b85cad&is=69b70b2d&hm=b01eb1ff02b89d47b6fa5fdaaf53ac23b7f91bf05aa623d0e7be04d295879571&";
@@ -61,10 +60,8 @@ function addLogo() {
   });
 }
 
-// Start with 1 logo
 addLogo();
 
-// Move function
 function move() {
   const w = window.innerWidth;
   const h = window.innerHeight;
@@ -88,7 +85,6 @@ function move() {
 
 move();
 
-// Add new logo on any click or keypress
 document.addEventListener("click", addLogo);
 document.addEventListener("keydown", addLogo);
 </script>
