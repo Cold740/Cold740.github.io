@@ -384,6 +384,53 @@ p {
   margin-left: 270px
 }
 
+body {
+margin: 0;
+padding: 0;
+position: relative;
+background-size: cover;
+animation: fadeIn 1s ease-in-out forwards;
+font-family: 'Arial', sans-serif;
+}
+
+body::before {
+content: "";
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: black;
+z-index: 9999;
+opacity: 1;
+animation: fadeOut 1.5s ease-in-out forwards;
+animation-delay: 4.5s;
+pointer-events: none;
+}
+
+@keyframes fadeOut { 0% { opacity: 1; pointer-events: all; } 100% { opacity: 0; pointer-events: none; }}
+
+body::after {
+content: "BaranStare Museum!";
+white-space: pre;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+font-size: 2em;
+font-family: 'Comic Sans MS', 'Arial', sans-serif;
+z-index: 10001;f
+opacity: 1;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+background: url('stares/3dgifmaker04559.gif') no-repeat center top;
+background-size: 300px 300px;
+padding-top: 320px;
+text-align: center;
+animation: fadeOut 1.5s ease-in-out forwards;
+animation-delay: 4.5s;
+}
+
 @media only screen and (max-width: 1000px) {
   body {
   margin: 0;
