@@ -441,7 +441,7 @@ background-size: 300px 300px;
 padding-top: 320px;
 text-align: center;
 animation: fadeOut 1.5s ease-in-out forwards;
-animation-delay: 4.5s;
+animation-delay: 2.5s;
 }
 
 @media only screen and (max-width: 1000px) {
