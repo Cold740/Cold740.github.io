@@ -135,7 +135,7 @@ body {
 
 .foto2 {
   margin-bottom: 400px;
-  margin-right: 277px;
+  margin-right: 257px;
 }
 
 .foto3 {
@@ -161,16 +161,18 @@ body {
 .foto7 {
   margin-bottom: 230px;
   margin-right: 447px;
+  scale: 0.88;
 }
 
 .foto8 {
   margin-bottom: 230px;
-  margin-right: 277px;
+  margin-right: 257px;
 }
 
 .foto9 {
   margin-bottom: 230px;
   margin-right: 107px;
+  scale: 1.2
 }
 
 .foto10 {
@@ -404,7 +406,7 @@ background: black;
 z-index: 9999;
 opacity: 1;
 animation: fadeOut 1.5s ease-in-out forwards;
-animation-delay: 4.5s;
+animation-delay: 2.5s;
 pointer-events: none;
 }
 
@@ -428,14 +430,14 @@ background-size: 300px 300px;
 padding-top: 320px;
 text-align: center;
 animation: fadeOut 1.5s ease-in-out forwards;
-animation-delay: 2.5s;
+animation-delay: 4.5s;
 }
 
 @media only screen and (max-width: 1000px) {
   body {
   margin: 0;
   height: 100vh;
-  background: url("stares/Baran_20260315181028.png") no-repeat center
+  background: url("../../stares/Baran_20260315181028.png") no-repeat center
     center fixed;
   background-size: cover;
   display: flex;
@@ -556,21 +558,25 @@ animation-delay: 2.5s;
   .foto1 {
   margin-bottom: 650px;
   margin-right: 687px;
+  scale: 0.8;
   }
 
 .foto2 {
   margin-bottom: 650px;
-  margin-right: 407px;
+  margin-right: 380px;
+  scale: 0.8;
   }
 
 .foto3 {
   margin-bottom: 650px;
   margin-right: 127px;
+  scale: 0.9;
   }
 
 .foto4 {
   margin-bottom: 650px;
   margin-left: 153px;
+  scale: 0.9;
   }
 
 .foto5 {
@@ -586,11 +592,12 @@ animation-delay: 2.5s;
 .foto7 {
   margin-bottom: 350px;
   margin-right: 687px;
+  scale: 0.8;
   }
 
 .foto8 {
   margin-bottom: 350px;
-  margin-right: 407px;
+  margin-right: 367px;
   }
 
 .foto9 {
