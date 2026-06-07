@@ -764,6 +764,12 @@ animation-delay: 4.5s;
   #dvd img{
     display: none;
   }
+
+  #Back {
+    margin-bottom: -1015px;
+    margin-left: 665px;
+    font-size: 34px;
+  }
   
   .discord{
   position: absolute;
