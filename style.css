@@ -135,6 +135,39 @@ body {
   margin-left: 560px;
 }
 
+.title2 {
+  position: absolute;
+  top: 50px;
+  font-family: impact;
+  font-size: 36px;
+  background: linear-gradient(
+    90deg,
+    #e84f4f,
+    orange,
+    yellow,
+    #10c8ff,
+    violet,
+    #ef6a6a
+  );
+
+  background-size: 300% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ffffff00;
+  -webkit-text-stroke: 1px #000000;
+
+  animation: rainbow 10s linear infinite;
+}
+
+@keyframes rainbow {
+  from {
+    background-position: 0% 50%;
+  }
+  to {
+    background-position: 300% 50%;
+  }
+}
+
 .foto1 {
   margin-bottom: 400px;
   margin-right: 447px;
@@ -557,6 +590,11 @@ animation-delay: 4.5s;
   scale: 0.43;
   margin-bottom: 1190px;
   margin-left: 365px
+  }
+
+  .title2 {
+    top: 230px;
+    font-size: 67px;
   }
 
   [class^="foto"] {
